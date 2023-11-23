@@ -2,11 +2,10 @@
 
 // Get our helper functions
 require_once("inc/functions.php");
-// require_once("inc/mysql_connect.php");
 
 // Set variables for our request
-$api_key = "a16418837a392f317a60fdfa99618a65";
-$shared_secret = "97033dcf2e96c8dbc400f9cdf0e34521";
+$api_key = "your_api_key";
+$shared_secret = "your_secret_key";
 $params = $_GET; // Retrieve all request parameters
 $hmac = $_GET['hmac']; // Retrieve HMAC request parameter
 
